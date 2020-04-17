@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.petrikainulainen.maven</groupId>
     <artifactId>integration-testing</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>0.1</version>
     <name>Integration Testing with Maven</name>
     <description>Integration Testing with Maven</description>
@@ -61,7 +61,7 @@
     </profiles>
 
     <build>
-        <finalName>wildfly-spring-boot-sample-1.0.0.0</finalName>
+        <finalName>maven-integration-testing</finalName>
         <filters>
             <!--
                 Ensures that the config.properties file is always loaded from the
